@@ -4,7 +4,7 @@ import torch
 model_path = "/Users/zhoubingzheng/projects/huggingface/textual-inversion-fashion-model"
 pipe = StableDiffusionPipeline.from_pretrained(model_path, torch_dtype=torch.float16).to("mps")
 
-prompt = "a pink Lincoln Continental stop on the street, sunset, summary, highly detailed, 4k"
+prompt = "a pink Lincoln Continental stop on the street, sunset, summary, realistic, highly detailed, 4k"
 image = pipe(prompt=prompt, num_inference_steps=50, guidance_scale=7.5).images[0]
 image.save("./examples/textual_inversion/images/backpack.png")
 
