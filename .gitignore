@@ -171,6 +171,7 @@ tags
 
 # ruff
 .ruff_cache
+
 examples/text_to_image/images/yoda-pokemon.png
 examples/text_to_image/images/yoda-pokemon1.png
 examples/text_to_image/images/yoda-pokemon2.png
@@ -179,3 +180,5 @@ examples/text_to_image/images/yoda-pokemon4.png
 examples/text_to_image/images/yoda-pokemon5.png
 examples/text_to_image/images/yoda-pokemon6.png
 examples/text_to_image/images/yoda-pokemon7.png
+
+wandb
